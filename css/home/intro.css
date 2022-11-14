@@ -1,0 +1,11 @@
+.intro {
+  font-size: 3rem;
+  line-height: 1;
+  padding: 60px 10px;
+}
+.sobre {
+  border: 2px solid #2448b1;
+  border-left: none;
+  border-right: none;
+  padding: 60px 10px;
+}

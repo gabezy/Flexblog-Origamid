@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  color: #222222;
+}
+.container {
+  max-width: 960px;
+  margin-inline: auto;
+  padding-inline: 10px;
+}
+.sobre {
+  display: flex;
+  gap: 20px;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
