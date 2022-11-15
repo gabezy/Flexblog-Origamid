@@ -1,7 +1,25 @@
 .produtos-list {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.produtos-list li {
-  flex: 1;
+.produtos-item {
+  flex: 1 1 300px;
+}
+.produtos-item h2 {
+  text-align: center;
+  color: #a4a4a4;
+  font-size: 3rem;
+  padding-block: 4rem;
+  background: #f7f7f7;
+}
+.purple {
+  border-top: 6px solid #ae81ff;
+}
+.pink {
+  border-top: 6px solid #f9265e;
+}
+.blue {
+  border-top: 6px solid #66d9eb;
 }

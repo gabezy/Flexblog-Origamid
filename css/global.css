@@ -10,6 +10,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 body {
   font-family: "Nunito", sans-serif;
   color: #222222;
