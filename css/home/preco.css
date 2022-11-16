@@ -1,9 +1,9 @@
 .preco {
   background: #f7f7f7;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   padding: 60px;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 .preco-item {
   border: 4px solid #fff;
@@ -34,8 +34,6 @@
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-}
-.preco-list {
   margin-block: 10px;
 }
 .preco-list li {
@@ -60,5 +58,10 @@
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 700;
-  border: 4px solid #000;
+  border: 4px solid;
+}
+@media (max-width: 400px) {
+  .preco {
+    padding: 60px 15px;
+  }
 }

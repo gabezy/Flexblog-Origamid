@@ -1,3 +1,6 @@
+.qualidades {
+  margin-block: 60px;
+}
 .qualidades ul {
   display: flex;
   flex-wrap: wrap;

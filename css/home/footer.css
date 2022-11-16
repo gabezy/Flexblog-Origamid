@@ -6,12 +6,16 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.menu-logo,
-.contact-footer,
-.info-footer {
-  flex: 1 1 260px;
-}
+
 .footer ul li + li {
   margin-top: 8px;
+}
+
+@media (max-width: 400px) {
+  .contact-footer,
+  .info-footer {
+    margin-top: 2rem;
+  }
 }

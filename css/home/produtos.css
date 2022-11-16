@@ -1,11 +1,15 @@
+.produtos {
+  margin-block: 60px;
+}
 .produtos-list {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
 .produtos-item {
-  flex: 1 1 300px;
+  flex: 1 1 200px;
 }
 .produtos-item h2 {
   text-align: center;

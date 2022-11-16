@@ -4,8 +4,34 @@
   padding: 60px 10px;
 }
 .sobre {
+  display: flex;
+  flex-wrap: wrap;
   border: 2px solid #2448b1;
   border-left: none;
   border-right: none;
   padding: 60px 10px;
+}
+.sobre-info {
+  flex: 2 1 300px;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+.sobre-image {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+@media (max-width: 400px) {
+  .sobre-image:last-child {
+    display: none;
+  }
 }

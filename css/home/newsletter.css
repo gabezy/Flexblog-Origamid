@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .newsletter > div {
   flex: 1 1 240px;
@@ -19,6 +20,7 @@
 }
 .newsletter form {
   display: flex;
+  flex-wrap: wrap;
   flex: 2 1 260px;
 }
 .newsletter input {
@@ -26,18 +28,33 @@
   font-style: italic;
   padding-block: 1.2rem;
   padding-left: 1rem;
-  flex: 1;
+  flex: 2 1 200px;
   border: 4px solid #2c70ff;
+  font-family: "Nunito", sans-serif;
+  border-radius: 0px;
 }
 .newsletter input:focus {
   outline: none;
 }
 .newsletter button {
-  flex: 1;
+  flex: 1 1 100px;
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
   border: 4px solid #2c70ff;
   background-color: #2c70ff;
+  font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .newsletter > div {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter button {
+    font-size: 1.5rem;
+  }
 }
