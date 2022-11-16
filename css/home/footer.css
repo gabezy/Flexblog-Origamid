@@ -1,0 +1,17 @@
+.footer-bg {
+  background: #2c70ff;
+  padding: 40px 0;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.menu-logo,
+.contact-footer,
+.info-footer {
+  flex: 1 1 260px;
+}
+.footer ul li + li {
+  margin-top: 8px;
+}
